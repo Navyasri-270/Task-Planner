@@ -1,0 +1,23 @@
+.task-column {
+  min-height: 250px;
+  padding: 1rem;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+}
+.task {
+  background-color: #fefefe;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+  cursor: grab;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+.task:hover {
+  background-color: #f0f8ff;
+}
+.bg-overlay {
+  backdrop-filter: blur(3px);
+  border-radius: 10px;
+}
